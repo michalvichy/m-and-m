@@ -31,3 +31,7 @@ div {
 	color: rgba(250, 240, 240, 0.85);
 	font-size: 3.5em;
 }
+
+#time>img {
+	margin-top: -115px;
+}

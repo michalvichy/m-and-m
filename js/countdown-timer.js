@@ -7,6 +7,8 @@ Counter.prototype.countdown = function(targetId) {
 	var days, hours, minutes, seconds;
 	var targetDate = this.targetDate;
 
+	// container.innerHTML = 'Loading...';
+
 	function addZero(digit) {
 		if(digit > 9) {
 			return digit;
